@@ -1,0 +1,379 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+.container{
+   width: 1140px;
+   margin: 0px auto;   
+}
+
+a{
+   text-decoration: none;
+}
+
+/*Header start*/
+
+header{
+   width: 100%;
+   padding: 20px 15px;
+}
+
+.header-content{
+   display: flex;
+   justify-content: space-between;
+   margin: 0px 0px;
+}
+
+.list ul li{
+   list-style: none;
+   display: inline-block;
+   
+}
+
+.list ul{
+   display: inline-block;
+   margin-top: 40px;
+   margin-right: 419px;
+   
+}
+
+.banner-right button{
+
+   color: white;
+   background-color:  #FF6162;
+   border: none;
+   border-radius: 4px;
+   padding: 14px 16px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+   cursor: pointer;
+   margin-top: 20px;
+       
+}
+ .list ul li a{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   color: #201F77;
+   margin-left: 22px;
+   font-size: 17px;
+ }
+
+
+.banner-left img{
+   margin-top: -10px;
+   
+}
+/*Header end*/
+
+/*Banner first starts*/
+.banner{
+   width: 100%;
+   margin-top: 140px;
+   margin-bottom: 180px;
+}
+.banner-content{
+   display: flex;
+   justify-content: space-between;
+}
+
+.banner-left{
+   padding-top: 35px;
+}
+.banner-right img{
+   padding-right: 50px;
+   height: 110%;
+}
+
+.banner-left h1{
+   color: #201E3A;
+   padding-bottom: 15px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 35px;
+   font-weight: 0800;
+}
+
+.banner-left p{
+   color: #A9BAC8;
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+}
+
+.banner-left i{
+   color: #A9BAC8;
+   font-family: 'Open Sans', sans-serif;
+}
+/*Banner first ends*/
+
+/*Banner two starts*/
+
+.bannertwothings{
+   margin-top: 320px;
+}
+.bannertwo-content h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px; 
+    font-weight: 900;
+    color: #272640;
+    margin: 0px 300px;
+    margin: 15px 300px;
+    text-align: center;
+    padding-left: 20px;
+}
+.bannertwo-content i{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px; 
+    font-weight: 500;
+    color: #71798f;
+    margin: 0px 300px;
+ }
+.bannertwo-content span{
+   text-align: center;
+   padding-left: 500px;
+   line-height: 25px;
+}
+/*Banner two ends*/
+/*Banner third starts*/
+.bannerthird{
+   width: 100%;
+}
+.bannerthree-content{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   padding-top: 35px;
+   box-sizing: border-box;
+   justify-content: space-around;
+   margin-bottom: 30px;
+}
+
+.bannerthree-content p{
+   text-align: center;
+   padding-top: 12px;
+   padding-bottom: 40px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 17px;
+   font-weight: 700;
+   color:#46494B ;
+}
+.bannerthree-content img{
+   padding-right: 10px;
+}
+
+.first{
+    transition: 0.7s;
+
+}
+
+.first:hover{
+   transform: translateY(-30px);
+   transition: 0.7s;
+}
+.second{
+    transition: 0.7s;
+
+}
+
+.second:hover{
+   transform: translateY(-30px);
+   transition: 0.7s;
+}
+.third{
+    transition: 0.7s;
+
+}
+
+.third:hover{
+   transform: translateY(-30px);
+   transition: 0.7s;
+}
+.four{
+    transition: 0.7s;
+
+}
+
+.four:hover{
+   transform: translateY(-30px);
+   transition: 0.7s;
+}
+
+/*Banner third ends*/
+
+/*Line starts*/
+.line{
+    
+    width: 3px;
+    background-color: #dbdbdf;
+    height: 90px;
+    margin: auto;
+}
+/*Line ends*/
+
+/*Bannerfour starts*/
+.bannerfourthings{
+   margin-top: 200px;
+}
+.bannerfour-content h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px; 
+    font-weight: 900;
+    color: #272640;
+    margin: 0px 300px;
+    margin: 15px 300px;
+    text-align: center;
+    padding-left: 20px;
+}
+.bannerfour-content i{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 19px;
+   font-weight: 500;
+   color: #71798f;
+   margin-left: 440px;
+}
+/*Bannerfour ends*/
+
+/*Bannerfive starts*/
+.bannerfive{
+   padding-top: 85px;
+   width: 100%;
+}
+.bannerfive-content{
+   display: grid ;
+   grid-template-columns: auto auto auto;
+   display: grid;
+   justify-content: space-around;
+   grid-gap: 10px;
+}
+
+.uno, .duo, .tuo, .fuo, .fiuo, .sui{
+   padding: 45px;
+   background: #f5f5f5;
+   text-align: center;
+   border-radius: 6px;
+}
+.uno, .duo, .tuo, .fuo, .fiuo, .sui{
+  margin-bottom: 20px;
+}
+
+.bannerfive-content i{
+   color: red;
+   background: #ffffff;
+   text-align: center;
+   border-radius: 50%;
+   width: 49px;
+   height: 45px;
+   line-height: 3;
+   margin-bottom: 12px
+}
+
+.bannerfive-content h3{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   padding-top: 5px;
+   padding-bottom: 8px;
+   color: #3a3e3f;
+}
+
+.bannerfive-content p{
+   font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #858889;
+}
+.uno{
+    transition: 0.7s;
+
+}
+
+.uno:hover{
+   transform: translateY(-30px);
+   transition: 0.7s;
+}
+.duo{
+    transition: 0.7s;
+
+}
+
+.duo:hover{
+   transform: translateY(-30px);
+   transition: 0.7s;
+}
+.tuo{
+    transition: 0.7s;
+
+}
+
+.tuo:hover{
+   transform: translateY(-30px);
+   transition: 0.7s;
+}
+.fiuo{
+    transition: 0.7s;
+
+}
+
+.fiuo:hover{
+   transform: translateY(-30px);
+   transition: 0.7s;
+}
+.fuo{
+    transition: 0.7s;
+
+}
+
+.fuo:hover{
+   transform: translateY(-30px);
+   transition: 0.7s;
+}
+.sui{
+    transition: 0.7s;
+
+}
+
+.sui:hover{
+   transform: translateY(-30px);
+   transition: 0.7s;
+}
+
+
+/*Bannerfive ends*/
+
+/*Footer starts*/
+
+footer{
+   width: 100%;
+   margin-top: 30px;
+   background-color: #292640;
+}
+
+
+.footer-button button{
+
+   color: white;
+   background-color:  #FF6162;
+   border: none;
+   border-radius: 4px;
+   padding: 14px 11px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   font-size: 12px;
+   cursor: pointer;
+   margin-top: 20px;
+   margin-bottom: 20px;
+       
+}
+
+.footer-title h1{
+   font-size: 35px;
+   font-family: 'Open Sans', sans-serif;
+   color: #FFF;
+
+}
+
+.footer-content{
+   text-align: center;
+   padding: 90px;
+   height: 200px;
+}
+/*Footer ends*/
